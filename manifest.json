@@ -6,7 +6,13 @@
         "default_popup": "index.html",
         "default_icon": "decodelogo-removebg-preview.png"
     },
+    "host_permissions": [
+    "http://localhost/*",
+    "http://127.0.0.1/*",
+    "<all_urls>"
+  ],
     "permissions": [
-        "tabs"
+        "tabs",
+        "activeTab"
     ]
 }   
